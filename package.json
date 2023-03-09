@@ -1,0 +1,26 @@
+{
+  "name": "njsb1",
+  "version": "1.0.0",
+  "description": "CipherSchools",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav098766/CipherSchools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurav098766/CipherSchools/issues"
+  },
+  "homepage": "https://github.com/Gaurav098766/CipherSchools#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
